@@ -1,38 +1,24 @@
-# create-svelte
+# SvelteKit Flowbite Tailwind Setup
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a simple SvelteKit setup with Flowbite and Tailwind CSS that you can use as a starting point for your project.
 
-## Creating a project
+## Getting Started
 
-If you're seeing this, you've probably already done this step. Congrats!
+1. Clone this repository `git clone https://github.com/Gal-Lahat/simple-sveltekit-flowbite-tailwind-setup`
+2. Install dependencies: `pnpm i`
+3. Run the project: `pnpm dev`
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Structure
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- `src/routes/` - Svelte routes
+- `static/` - Static files
 
-## Developing
+## Configuration
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- The project uses the SvelteKit framework with Flowbite and Tailwind CSS.
 
-```bash
-npm run dev
+Feel free to change the configuration in `svelte.config.js` and the styles in `src/app.pcss` to meet your project's requirements.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Why?
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+I created this repository because I wanted to have a simple and ready-to-use setup for building SvelteKit projects with Flowbite and Tailwind CSS. This can save you time and effort when starting a new project. Enjoy!
